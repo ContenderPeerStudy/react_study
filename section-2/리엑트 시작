@@ -1,0 +1,18 @@
+### create-react-app
+
+- ![](https://velog.velcdn.com/images/heejunggg/post/8f12cefd-3504-4328-ad43-9b5062efc3b3/image.png)
+
+```
+경로 맞추기
+npx create-react-app 프로젝트명(my-app이라 하겠음)
+cd 프로젝트명
+npm start
+
+```
+
+//
+<경로 변경 >
+$ cd my-app
+
+<애플리케이션 실행>
+$ npm start
