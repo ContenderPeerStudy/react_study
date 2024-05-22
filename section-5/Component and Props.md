@@ -49,3 +49,35 @@
 
 - Welcome이라는 컴포넌트에 name:인제라는 props를 넣어서 호출하고,그결과로 react element가 생성된다.
 - 최종적으로, 리엑트 돔에 업데이트가 되고 브라우저에서 볼수 있다.
+
+## 4. Component 합성과 추출
+
+- Component합성
+
+  -하나의 Component에 여러 Component를 만든다.
+  ![alt text](image-8.png)
+
+- Compoonent 추출
+
+  -큰 컴포넌트를 산산조각 낸다. -재사용성이 올라간다.--개발속도 향상
+
+- 예제
+  ![alt text](image-10.png)
+
+- 1.avatar추출하기
+  ![alt text](image-11.png)
+- avatar추출하기2
+  ![alt text](image-12.png)
+- Comment에 적용 다시 붙이자
+  ![alt text](image-13.png)
+
+- // 2. UserInfo 추출하기 별도의 component로 만들자.
+- ![alt text](image-16.png)
+- 추출하기
+- ![alt text](image-17.png)
+- Comment에 반영
+- ![alt text](image-19.png)
+- ![alt text](image-20.png)
+
+- // 2. (실습)댓글 컴포넌트 만들기
+- 나중에 기록하기로 하자
